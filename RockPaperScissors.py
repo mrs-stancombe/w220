@@ -14,9 +14,9 @@ computerChoice = random.choice(plays)
 # define rules
 if computerChoice = "rock":
   if userChoice = "paper":
-    print("Rock beats paper! The computer wins!")
+    print("Paper beats rock! You win!")
   if userChoice = "scissors":
-    print("Scissors beats rock! You win!")
+    print("Rock beats scissors! The computer wins!")
   if userChoice = "rock":
     print("It's a tie! Try again!")
   else:
@@ -24,12 +24,21 @@ if computerChoice = "rock":
         
 if computerChoice = "paper":
   if userChoice = "scissors":
-    print("Rock beats paper! The computer wins!")
-  if userChoice = "scissors":
-    print("Scissors beats rock! You win!")
+    print("Scissors beats paper! You win!")
   if userChoice = "rock":
+    print("Paper beats rock! The computer wins!")
+  if userChoice = "paper":
     print("It's a tie! Try again!")
   else:
     print("Sorry, I couldn't understand what you wrote. Please try again and type 'rock', 'paper, or 'scissors'.")
 
-
+if computerChoice = "scissors":
+  if userChoice = "paper":
+    print("Scissors beats paper! The computer wins!")
+  if userChoice = "rock":
+    print("Rock beats scissors! You win!")
+  if userChoice = "scissors":
+    print("It's a tie! Try again!")
+  else:
+    print("Sorry, I couldn't understand what you wrote. Please try again and type 'rock', 'paper, or 'scissors'.")
+          
